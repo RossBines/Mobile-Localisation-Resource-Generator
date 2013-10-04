@@ -1,4 +1,4 @@
-package com.binesy.localisation;
+package com.rbinesconsulting.localisation;
 
 import java.io.FileNotFoundException;
 

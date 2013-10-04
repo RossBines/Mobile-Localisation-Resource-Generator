@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.binesy.localisation.StringResource;
+import com.rbinesconsulting.localisation.StringResource;
 
 public class IosResourceCreator extends ResourceCreator {
 

@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Locale;
 import java.util.Set;
 
-import com.binesy.localisation.StringResource;
+import com.rbinesconsulting.localisation.StringResource;
 
 public class AndroidResourceCreator extends ResourceCreator {
 

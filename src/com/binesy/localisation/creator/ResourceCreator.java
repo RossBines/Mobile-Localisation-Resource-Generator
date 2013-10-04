@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.binesy.localisation.StringResource;
+import com.rbinesconsulting.localisation.StringResource;
 
 public abstract class ResourceCreator {
 

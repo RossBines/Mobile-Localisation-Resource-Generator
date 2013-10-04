@@ -1,4 +1,4 @@
-package com.binesy.localisation;
+package com.rbinesconsulting.localisation;
 
 import java.io.File;
 import java.io.FileInputStream;
