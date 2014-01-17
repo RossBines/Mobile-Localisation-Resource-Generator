@@ -1,4 +1,4 @@
-package com.binesy.localisation.creator;
+package com.rbinesconsulting.localisation.creator;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ public class AndroidResourceCreator extends ResourceCreator {
 	@Override
 	protected String getGeneratedFilePath(String locale) {
 		String localeName = locale.toLowerCase(Locale.getDefault()).replace(' ', '_').replace('\\', '-');
-		return "android\\res\\values-" + localeName + "\\generated-strings.xml";
+		return "android/res/values-" + localeName + "/generated-strings.xml";
 	}
 
 	@Override

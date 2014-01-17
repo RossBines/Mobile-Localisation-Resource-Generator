@@ -1,9 +1,9 @@
-apply plugin:'application'
 apply plugin: 'java'
+apply plugin:'application'
 
-mainClassName = "com.rbinesconsulting.localisation.Main"
+mainClassName = 'com.rbinesconsulting.localisation.Main'
 
-version = '0.1-SNAPSHOT'
+version = '0.2'
 
 repositories {
     mavenCentral()
@@ -16,10 +16,3 @@ dependencies {
 	compile 'org.apache.poi:poi-ooxml-schemas:3.9'
 }
 
-sourceSets {
-    main {
-        java {
-            srcDir 'src'
-        }
-    }
-}

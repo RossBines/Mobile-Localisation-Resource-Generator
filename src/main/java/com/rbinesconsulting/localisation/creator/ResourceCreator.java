@@ -1,4 +1,4 @@
-package com.binesy.localisation.creator;
+package com.rbinesconsulting.localisation.creator;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -41,7 +41,7 @@ public abstract class ResourceCreator {
 			String locale = locales[i].trim();
 			String data = createResourceString(resources, locale);
 
-			File localeFile = createFile(outputFile.getAbsolutePath() + "\\" + getGeneratedFilePath(locale));
+			File localeFile = createFile(outputFile.getAbsolutePath() + "/" + getGeneratedFilePath(locale));
 			writeDataToFile(localeFile, data);
 		}
 	}

@@ -1,4 +1,4 @@
-package com.binesy.localisation.creator;
+package com.rbinesconsulting.localisation.creator;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -60,7 +60,7 @@ public class IosResourceCreator extends ResourceCreator {
 	@Override
 	protected String getGeneratedFilePath(String locale) {
 		locale = locale.replace(' ', '_').replace('\\', '-');
-		return "ios\\" + locale + "\\Localizable.strings";
+		return "ios/" + locale + "/Localizable.strings";
 	}
 
 	@Override
